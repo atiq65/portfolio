@@ -1,0 +1,834 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheikh Atiq Hasan — Frontend &amp; Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Sheikh Atiq Hasan, frontend and full-stack developer building web tools, SaaS products and browser-based apps."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-inner">
+        <div class="logo">atiq<span>hasan</span>.dev</div>
+        <ul class="nav-links">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle light and dark theme"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="4"></circle>
+              <path
+                d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"
+              ></path>
+            </svg>
+          </button>
+          <a
+            class="btn btn-primary"
+            href="#contact"
+            style="padding: 10px 18px; font-size: 13px"
+            >Hire Me</a
+          >
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#top">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="wrap" id="top">
+      <section class="hero">
+        <div class="photo-wrap">
+          <div class="photo-ring"></div>
+          <div class="photo-blob">
+            <!-- Replace this src with your own photo once ready, e.g. src="my-photo.jpg" -->
+            <img src="./images/Sheikh Atiq Hasan.jpg" alt="Sheikh Atiq Hasan" />
+          </div>
+          <div class="photo-badge">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+            >
+              <path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12" />
+            </svg>
+          </div>
+        </div>
+
+        <div>
+          <div class="hero-eyebrow">Hey, I'm Atiq</div>
+          <h1>Frontend &amp; Full-Stack <b>Web</b> Developer</h1>
+          <p class="lede">
+            I build complete web products end to end — SaaS platforms,
+            browser-based tools, and interfaces that actually ship — using React
+            on the frontend and Python/FastAPI on the backend.
+          </p>
+          <div class="tech-row">
+            <span class="tech-chip">HTML / CSS</span>
+            <span class="tech-chip">JavaScript</span>
+            <span class="tech-chip">React</span>
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">FastAPI</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="Sheikh_Atiq_Hasan_CV.pdf" download
+              >⬇ Download CV</a
+            >
+            <a class="btn btn-ghost" href="#projects">View Portfolio</a>
+          </div>
+          <div class="social-row">
+            <a
+              class="social-icon"
+              href="https://github.com/atiq65"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 .5C5.7.5.7 5.6.7 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.7 1.2 3.3.9.1-.7.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.3 12C23.3 5.6 18.3.5 12 .5z"
+                />
+              </svg>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.youtube.com/@AtiqDevLog"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube English channel"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"
+                />
+              </svg>
+              <span class="badge">EN</span>
+            </a>
+            <a
+              class="social-icon"
+              href="https://www.youtube.com/@AtiqOnRails"
+              aria-label="YouTube Bangla channel "
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"
+                />
+              </svg>
+              <span class="badge">BN</span>
+            </a>
+            <a
+              class="social-icon"
+              href="#"
+              aria-label="Facebook — add your link"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"
+                />
+              </svg>
+            </a>
+            <a
+              class="social-icon"
+              href="#"
+              aria-label="X / Twitter — add your link"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.9 2H22l-7.2 8.3L23 22h-6.6l-5.2-6.8L5 22H2l7.7-8.9L1.5 2h6.8l4.7 6.3L18.9 2zm-1.2 18h1.8L7.4 4h-2l12.3 16z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="highlights">
+        <div class="highlight">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+          >
+            <rect x="3" y="4" width="18" height="14" rx="2" />
+            <path d="M8 21h8M12 18v3" />
+          </svg>
+          <div class="value">4+ Products</div>
+          <div class="label">Built end to end</div>
+        </div>
+        <div class="highlight">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+          >
+            <rect x="3" y="6" width="18" height="12" rx="2" />
+            <path d="M9 10l6 2-6 2v-4z" />
+          </svg>
+          <div class="value">2 Channels</div>
+          <div class="label">YouTube — EN &amp; BN</div>
+        </div>
+        <div class="highlight">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+          >
+            <path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12" />
+          </svg>
+          <div class="value">Full-Stack</div>
+          <div class="label">React + FastAPI</div>
+        </div>
+        <div class="highlight">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+          >
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3 3" />
+          </svg>
+          <div class="value">Available</div>
+          <div class="label">For freelance work</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap" id="services">
+      <section>
+        <div class="section-head">
+          <div class="eyebrow">Services</div>
+          <div class="section-title">What I can build <b>for you</b></div>
+          <p class="section-sub">
+            From a single landing page to a full SaaS platform — here's where I
+            can help.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13 6l-2 12" />
+              </svg>
+            </div>
+            <h3>Frontend Development</h3>
+            <p>
+              Responsive, fast interfaces built with HTML, CSS, JavaScript and
+              React.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <rect x="4" y="4" width="7" height="7" rx="1" />
+                <rect x="13" y="4" width="7" height="7" rx="1" />
+                <rect x="4" y="13" width="7" height="7" rx="1" />
+                <rect x="13" y="13" width="7" height="7" rx="1" />
+              </svg>
+            </div>
+            <h3>Backend &amp; API Development</h3>
+            <p>
+              Scalable REST APIs and services with FastAPI, Python, and SQLite.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <path d="M12 3v18M3 12h18" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+            </div>
+            <h3>Full-Stack SaaS Products</h3>
+            <p>
+              End-to-end platforms with auth, payments, admin dashboards and
+              plan management.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <rect x="3" y="6" width="18" height="12" rx="1.5" />
+                <path d="M3 10h18M8 6v4M15 6v4" />
+              </svg>
+            </div>
+            <h3>Browser-Based Tools</h3>
+            <p>
+              In-browser apps using Canvas, Web Audio API and MediaRecorder — no
+              backend needed.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <rect x="3" y="4" width="18" height="14" rx="2" />
+                <path d="M8 21h8M12 18v3" />
+              </svg>
+            </div>
+            <h3>Landing Pages &amp; Templates</h3>
+            <p>
+              Clean, conversion-focused landing pages and website templates.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+              >
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="M8 9l-4 3 4 3M16 9l4 3-4 3" />
+              </svg>
+            </div>
+            <h3>Coding Content &amp; Tutorials</h3>
+            <p>
+              Explaining real build processes on YouTube in both English and
+              Bangla.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrap" id="journey">
+      <section>
+        <div class="section-head">
+          <div class="eyebrow">My Journey</div>
+          <div class="section-title">How I got <b>here</b></div>
+          <p class="section-sub">
+            Self-taught, project-driven — every skill came from something I
+            actually shipped.
+          </p>
+        </div>
+        <div class="journey">
+          <div class="journey-item">
+            <div class="journey-tag">Foundation</div>
+            <h4>Learning frontend fundamentals</h4>
+            <p>
+              Started with HTML, CSS and JavaScript, building the base for
+              everything that came after.
+            </p>
+          </div>
+          <div class="journey-item">
+            <div class="journey-tag">Earlier work</div>
+            <h4>Templates, dashboards &amp; first products</h4>
+            <p>
+              Built the Meridian admin dashboard in React and the Spice &amp;
+              Ember restaurant template in pure HTML/CSS/JS, and explored
+              selling code templates.
+            </p>
+          </div>
+          <div class="journey-item">
+            <div class="journey-tag">Going full-stack</div>
+            <h4>Picked up React, FastAPI and Python</h4>
+            <p>
+              Expanded from frontend-only into full-stack development to build
+              complete, working products on my own.
+            </p>
+          </div>
+          <div class="journey-item">
+            <div class="journey-tag">Now</div>
+            <h4>Building four products in parallel</h4>
+            <p>
+              Currently developing Atiq Audio, GyanJuddha, KhelaBarta and a
+              browser-based video editor, while running two YouTube channels
+              around the process.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrap" id="projects">
+      <section>
+        <div class="section-head">
+          <div class="eyebrow">Portfolio</div>
+          <div class="section-title">Recent <b>projects</b></div>
+          <p class="section-sub">
+            Four self-driven products, each solving a different problem.
+          </p>
+        </div>
+        <div class="projects">
+          <div class="app-card">
+            <div class="app-cover cover-audio">
+              <div class="grid-overlay"></div>
+              <span class="app-status status-build">deploying to VPS</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#f0a94e"
+                stroke-width="1.6"
+              >
+                <path d="M3 12h2l2-7 3 14 3-10 2 6 2-3h4" />
+              </svg>
+            </div>
+            <div class="app-body">
+              <div class="app-name">Atiq Audio</div>
+              <p class="app-desc">
+                An audio noise-removal SaaS with JWT auth, plan enforcement, a
+                priority processing queue, an admin dashboard, and manual bKash
+                / Nagad / PayPal payment flows.
+              </p>
+              <div class="app-stack">
+                <span class="chip">FastAPI</span><span class="chip">React</span
+                ><span class="chip">SQLite</span><span class="chip">JWT</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="app-card">
+            <div class="app-cover cover-quiz">
+              <div class="grid-overlay"></div>
+              <span class="app-status status-local">in development</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#59c9b9"
+                stroke-width="1.6"
+              >
+                <path d="M12 3l8 4-8 4-8-4 8-4z" />
+                <path d="M4 11v4l8 4 8-4v-4" />
+              </svg>
+            </div>
+            <div class="app-body">
+              <div class="app-name">
+                GyanJuddha <span class="bn">জ্ঞানযুদ্ধ</span>
+              </div>
+              <p class="app-desc">
+                A BCS exam-prep quiz platform with 500+ questions, a coin
+                economy, a leaderboard, bKash / Nagad payments, and
+                AdSense-ready slots.
+              </p>
+              <div class="app-stack">
+                <span class="chip">FastAPI</span><span class="chip">React</span
+                ><span class="chip">AdSense</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="app-card">
+            <div class="app-cover cover-sports">
+              <div class="grid-overlay"></div>
+              <span class="app-status status-local">demo mode live</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#59c9b9"
+                stroke-width="1.6"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M8 12h8M12 8v8" />
+              </svg>
+            </div>
+            <div class="app-body">
+              <div class="app-name">
+                KhelaBarta <span class="bn">খেলাবার্তা</span>
+              </div>
+              <p class="app-desc">
+                A live sports score tracker built for Bangladeshi users, with a
+                full offline demo mode so anyone can try it without an API key.
+              </p>
+              <div class="app-stack">
+                <span class="chip">React</span><span class="chip">Vite</span
+                ><span class="chip">FastAPI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="app-card">
+            <div class="app-cover cover-video">
+              <div class="grid-overlay"></div>
+              <span class="app-status status-build">prototype</span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#c58af0"
+                stroke-width="1.6"
+              >
+                <rect x="3" y="6" width="18" height="12" rx="1.5" />
+                <path d="M3 10h18M8 6v4M15 6v4" />
+              </svg>
+            </div>
+            <div class="app-body">
+              <div class="app-name">Browser Video Editor</div>
+              <p class="app-desc">
+                A multi-clip video editor that runs entirely in the browser —
+                transitions, text overlays, voice captioning, background music
+                and color grading.
+              </p>
+              <div class="app-stack">
+                <span class="chip">Canvas API</span
+                ><span class="chip">Web Audio API</span
+                ><span class="chip">MediaRecorder</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="note">
+          Cover panels are placeholders — swap them for real screenshots or GIFs
+          of each project any time.
+        </p>
+      </section>
+    </div>
+
+    <div class="wrap" id="skills">
+      <section>
+        <div class="section-head">
+          <div class="eyebrow">Skills</div>
+          <div class="section-title">Tools I work <b>with</b></div>
+        </div>
+        <div class="skills-wrap">
+          <div>
+            <div class="skill-row">
+              <div class="top">
+                <span class="cat">Frontend</span
+                ><span class="items">HTML, CSS, JavaScript, React</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="top">
+                <span class="cat">Backend</span
+                ><span class="items">Python, FastAPI, SQLite, JWT</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" style="width: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="top">
+                <span class="cat">Browser APIs</span
+                ><span class="items">Canvas, Web Audio, MediaRecorder</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="top">
+                <span class="cat">Tools</span
+                ><span class="items">Git, GitHub, VS Code</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="icon-cloud">
+            <div class="icon-pill">
+              <span class="dot" style="background: #e34f26"></span>HTML5
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #2965f1"></span>CSS3
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #f0db4f"></span>JavaScript
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #61dafb"></span>React
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #3776ab"></span>Python
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #009485"></span>FastAPI
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #89e051"></span>SQLite
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #f34f29"></span>Git &amp;
+              GitHub
+            </div>
+            <div class="icon-pill">
+              <span class="dot" style="background: #007acc"></span>VS Code
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrap" id="blog">
+      <section>
+        <div class="section-head">
+          <div class="eyebrow">Blog</div>
+          <div class="section-title">
+            Where I share what I'm <b>building</b>
+          </div>
+          <p class="section-sub">
+            Two channels, two audiences — coding content in Bangla and in
+            English.
+          </p>
+        </div>
+        <div class="content-grid">
+          <a
+            class="content-card"
+            href="https://www.youtube.com/@AtiqDevLog"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="content-banner">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"
+                />
+              </svg>
+            </div>
+            <div class="content-body">
+              <h3>@AtiqDevLog — English</h3>
+              <p>
+                Coding tutorials and build logs in English, covering frontend,
+                full-stack projects and the tools I use day to day.
+              </p>
+              <span class="content-link">
+                https://www.youtube.com/@AtiqDevLog</span
+              >
+            </div>
+          </a>
+          <a class="content-card" href="https://www.youtube.com/@AtiqOnRails">
+            <div class="content-banner">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"
+                />
+              </svg>
+            </div>
+            <div class="content-body">
+              <h3>@AtiqOnRails - Bangla</h3>
+              <p>
+                Same world of web development, explained in Bangla for
+                developers back home who are just getting started.
+              </p>
+              <span class="content-link"
+                >https://www.youtube.com/@AtiqOnRails</span
+              >
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrap" id="contact">
+      <section>
+        <div class="section-head">
+          <div class="eyebrow">Contact</div>
+          <div class="section-title">Let's <b>connect</b></div>
+          <p class="section-sub">
+            Have a project in mind? Fill in the form and it'll open directly in
+            your email app.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contact Info</h3>
+            <div class="contact-info-row">
+              <div class="ic">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="M2 6l10 7 10-7" />
+                </svg>
+              </div>
+              <div class="txt">
+                <strong>Email</strong><span>sheikhatiqhasan.com</span>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="ic">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M3 5c0 9 7 16 16 16l3-4-6-2-2 2c-3-1-6-4-7-7l2-2-2-6-4 3z"
+                  />
+                </svg>
+              </div>
+              <div class="txt">
+                <strong>Phone</strong><span>+880 1767045665</span>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="ic">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 21s7-6.5 7-11a7 7 0 1 0-14 0c0 4.5 7 11 7 11z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+              </div>
+              <div class="txt">
+                <strong>Location</strong><span>Bangladesh</span>
+              </div>
+            </div>
+            <div class="contact-info-row">
+              <div class="ic">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 .5C5.7.5.7 5.6.7 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.7 1.2 3.3.9.1-.7.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.3 12C23.3 5.6 18.3.5 12 .5z"
+                  />
+                </svg>
+              </div>
+              <div class="txt">
+                <strong>GitHub</strong><span>github.com/atiq65</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cname">Name</label
+                ><input type="text" id="cname" required />
+              </div>
+              <div class="form-field">
+                <label for="cemail">Email</label
+                ><input type="email" id="cemail" required />
+              </div>
+            </div>
+            <div class="form-field" style="margin-bottom: 16px">
+              <label for="csubject">Subject</label
+              ><input type="text" id="csubject" />
+            </div>
+            <div class="form-field" style="margin-bottom: 20px">
+              <label for="cmessage">Message</label
+              ><textarea id="cmessage" required></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="border: none; cursor: pointer"
+            >
+              Send Message →
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-social">
+        <a
+          class="social-icon"
+          href="https://github.com/atiq65"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 .5C5.7.5.7 5.6.7 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.7 1.2 3.3.9.1-.7.4-1.2.7-1.5-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.3 12C23.3 5.6 18.3.5 12 .5z"
+            /></svg
+        ></a>
+        <a
+          class="social-icon"
+          href="https://youtube.com/@AtiqOnRails"
+          target="_blank"
+          rel="noopener"
+          aria-label="YouTube"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"
+            /></svg
+        ></a>
+        <a class="social-icon" href="#" aria-label="Facebook — add your link"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"
+            /></svg
+        ></a>
+        <a class="social-icon" href="#" aria-label="X / Twitter — add your link"
+          ><svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M18.9 2H22l-7.2 8.3L23 22h-6.6l-5.2-6.8L5 22H2l7.7-8.9L1.5 2h6.8l4.7 6.3L18.9 2zm-1.2 18h1.8L7.4 4h-2l12.3 16z"
+            /></svg
+        ></a>
+      </div>
+      built by Sheikh Atiq Hasan — © <span id="year"></span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
